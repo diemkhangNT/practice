@@ -3,9 +3,16 @@ package vn.plusplus.pratice;
 public class pacticels4 {
     //tăng mỗi phần tử trong mảng lên 2 đơn vị.
     public static void main(String[] args) {
-        String s = new String(new char[] { 'H', 'e', 'l', 'l', 'o' });
-        String c = "Hello PlusPlus Academy!";
-        String a = "Hello".concat("PlusPlus Academy");
+//        String s = new String(new char[] { 'H', 'e', 'l', 'l', 'o' });
+//        char c = "Hello PlusPlus Academy!".charAt(5);
+//        String a = "Hello".concat(" PlusPlus Academy");
+//        System.out.println(s);
+//        System.out.println(c);
+//        System.out.println(a);
+        boolean flag = "Khang cute".startsWith("Kh");
+        System.out.println(flag);
+        char[] ch = {'k', 'h'};
+
 
 //        int myArray[] = {24,127,20,2,24,215};
 //        System.out.println("BEFORE call increase function: "+ toString(myArray));
@@ -24,4 +31,5 @@ public class pacticels4 {
 //            myArray[i] += step;
 //        }
 //    }
+
 }
